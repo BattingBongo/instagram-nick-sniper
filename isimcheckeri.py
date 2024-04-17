@@ -11,9 +11,9 @@ while True:
 
     
 
-    if (response.status_code == 200): #200 alınabilir demektir tkd
+    if (response.status_code == 200): #200 alınabilir demektir Elwinta
         print(Fore.RED + f"Calismiyor: {user}" + Fore.RESET)
-    elif (response.status_code == 404): # 404 eror kodudur tkd
+    elif (response.status_code == 404): # 404 eror kodudur Elwinta
         print(Fore.GREEN + f"Yakala: {user}" + Fore.RESET)
 
     else:
