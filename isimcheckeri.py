@@ -11,9 +11,9 @@ while True:
 
     
 
-    if (response.status_code == 200): #200 alınabilir demektir Elwinta
+    if (response.status_code == 200): #200 alınabilir demektir Kullanılabilir
         print(Fore.RED + f"Calismiyor: {user}" + Fore.RESET)
-    elif (response.status_code == 404): # 404 eror kodudur Elwinta
+    elif (response.status_code == 404): # 404 eror kodudur Kullanılamaz
         print(Fore.GREEN + f"Yakala: {user}" + Fore.RESET)
 
     else:
